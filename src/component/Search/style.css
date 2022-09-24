@@ -1,0 +1,44 @@
+.searchContainer{
+    display: block;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.search-box{
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+#searchParam{
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+#searchParam:focus{
+    outline: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.notify-search{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.result-title,.result-num{
+    text-align: center;
+}
+.result-title{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.search__noti{
+    margin: 8px 0;
+    text-align: center;
+}

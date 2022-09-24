@@ -1,0 +1,31 @@
+.recomend__container{
+    display: block;
+    width: 100%;
+    padding: 0 12%;
+    font-family: 'Raleway', sans-serif;
+    margin: 4% 0 ;
+}
+.recomend__container-title{
+    width: 100%;
+    text-align: center;
+}
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    .recomend__container{
+        padding: 0 1%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .recomend__container{
+        padding: 0 1%;
+        margin: 10% 0 ;
+    }
+}

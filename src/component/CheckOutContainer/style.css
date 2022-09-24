@@ -1,0 +1,120 @@
+:root{
+    --checkout-heading: 40px;
+}
+.checkOut__container{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+.checkOut__container-heading{
+    display: flex;
+    height: var(--checkout-heading);
+    line-height: var(--checkout-heading);
+    background-color: black;
+    padding: 0 2%;
+    text-align: center;
+}
+.CTN__heading-back{
+    flex: 1;
+    display: block;
+}
+.CTN__heading-link{
+    display: flex;
+    color: white;
+}
+.CTN__heading-link>i{
+    padding: 10px;
+    font-size: 23px;
+}
+.CTN__heading-link>p{
+    font-size: 13px;
+}
+.CTN__heading-logo{
+    flex: 1;
+}
+.CTN__heading-logoItem{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.checkOut__container-heading>div:last-child{
+    flex: 1;
+}
+.checkout__main{
+    display: block;
+    padding: 0 12%;
+}
+.checkout__main>p{
+    margin: 4% 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 450;
+    letter-spacing: 3px;
+}
+.checkout__form-cart{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.checkout__form{
+    flex: 2;
+    margin-right: 18px;
+    box-shadow: 0 0 5px gray;
+    padding: 14px;
+    height: fit-content;
+}
+.checkout__form>p{
+    text-align: center;
+    font-size: 19px;
+}
+.checkout__cart{
+    height: fit-content;
+    flex: 1;
+    box-shadow: 0 0 5px gray;
+}
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    .CTN__heading-back{
+        flex: 1;
+        display: block;
+    }
+    .CTN__heading-logo{
+        flex: 3;
+    }
+    .checkOut__container-heading>div:last-child{
+        flex: 1;
+    }
+    .CTN__heading-link>p{
+       display: none;
+    }
+   
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .checkout__main{
+        display: block;
+        padding: 0 3%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .CTN__heading-logoItem{
+        font-size: 15px;
+    }
+    .checkout__main{
+        display: block;
+        padding: 0 5%;
+    }
+    .checkout__form{
+        order: 2;
+        flex: none;
+        width: 100%;
+    }
+    .checkout__cart{
+       order: 1;
+       margin: 10px 0;
+    }
+    
+}

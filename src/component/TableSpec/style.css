@@ -1,0 +1,17 @@
+.tabspect__list{
+    display: block;
+}
+.tabspect__list-item{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tabspect__list-item:last-child{
+    border-bottom: none;
+}
+.tabspect__list-item>p:first-child{
+    color: #6E6E8A;
+}
