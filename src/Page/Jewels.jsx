@@ -8,7 +8,7 @@ const Jewels = () => {
     return (
         <div>
             <NavBar/>
-            <BannerCanChoice link1={'https://www.dongho5sao.com/wp-content/uploads/2016/09/danielwellington-daniel-wellington-watch-bracelet-classic-cuff-1-1140x445.jpg'} link2={'https://www.dongho5sao.com/wp-content/uploads/2016/09/danielwellington-daniel-wellington-watch-bracelet-classic-cuff-1-1140x445.jpg'}/>
+            <BannerCanChoice link1={'https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/3k39f1hPS7MdOfzz1n2TXv/2d4ccee0b87779225eba40f2729568a3/bracelets-desk-hero.jpg'} link2={'https://www.danielwellington.com/ecom2-image-bucket/mv3xw5mnbbp0/3k39f1hPS7MdOfzz1n2TXv/2d4ccee0b87779225eba40f2729568a3/bracelets-desk-hero.jpg'}/>
             <JewelContainer/>
             <Footer/>
         </div>
