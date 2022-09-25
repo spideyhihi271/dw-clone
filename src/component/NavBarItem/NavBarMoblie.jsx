@@ -19,7 +19,7 @@ const NavBarMoblie = () => {
     return (
         <div className='nav__Mobile'>
             <div className="mobile__logo">
-                <a href="">DANIEL WALLINGTON</a>
+                <Link to="/">DANIEL WALLINGTON</Link>
             </div>
             <nav className="moblie__nav">
                 <div className="moblie__nav-item">
@@ -103,10 +103,10 @@ const NavBarMoblie = () => {
                     </div>
                 </div>
                 <div className="moblie__nav-item">
-                    <a href="/search"><i class="fa-thin fa-magnifying-glass"></i></a>
+                    <Link to="/search"><i class="fa-thin fa-magnifying-glass"></i></Link>
                 </div>
                 <div className="moblie__nav-item">
-                    <a href="/wishlist"><i class="fa-thin fa-heart"></i></a>
+                    <Link to="/wishlist"><i class="fa-thin fa-heart"></i></Link>
                 </div>
                 <div className="moblie__nav-item">
                     <input type="checkbox" hidden name='cart__mobile' id='cart__mobile'/> 

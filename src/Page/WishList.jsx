@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../component/Footer/Footer';
 import NavBar from '../component/NavBar/NavBar';
 import RenderWishList from '../component/RenderWishList/RenderWishList';
 
@@ -7,6 +8,7 @@ const WishList = () => {
         <div>
             <NavBar/>
             <RenderWishList/>
+            <Footer/>
         </div>
     );
 };

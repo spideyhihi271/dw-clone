@@ -11,6 +11,7 @@ import strapList from '../data/strap';
 import BackToTop from '../features/backToTop/BackToTop';
 import getDataProduct from '../features/getDataProduct/getDataProduct';
 import getRandom from '../features/getRandom/getRandom';
+import Footer from '../component/Footer/Footer';
 
 
 
@@ -30,6 +31,7 @@ const Details = () => {
             <DetailsImgAddCart product={product}/>
             <DetailsSpecitial product={product}/>
             <RecomendContainer msg={'SẢN PHẨM PHÙ HỢP'} renderList={renderList}/>
+            <Footer/>
         </div>
     );
 };
